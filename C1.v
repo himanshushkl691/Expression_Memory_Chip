@@ -1,7 +1,7 @@
 module C1(out,x,y);
 input[31:0]x,y;
 output[31:0]out;
-wire[31:0]out0,out1;
+wire[31:0]out0;
 reg en,clk,rw;
 reg[31:0]in;
 reg[2:0]address;
